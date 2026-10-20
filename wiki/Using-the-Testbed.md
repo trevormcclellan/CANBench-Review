@@ -83,7 +83,7 @@ void transformData(unsigned char *transformedData, unsigned char *data, int data
   }
 }
 ```
-As an example, encryption and decryption using the `ChaCha20` algorithm was implemented in the `sender_encryption.ino` and `CANBed_encryption.ino` files in the `rp2040` directory of this repository. You can flash these files using the methods found in the [Software Setup](./Software-Setup#step-2-flash-the-boards-with-the-canbench-firmware) portion of the Wiki to try them out.
+As an example, encryption and decryption using the `ChaCha20` algorithm was implemented in the `sender_encryption.ino` and `CANBed_encryption.ino` files in the `rp2040` directory of this repository. You can flash these files using the methods found in the [Software Setup](./Software-Setup.md#step-2-flash-the-boards-with-the-canbench-firmware) portion of the Wiki to try them out.
 For example, here is a snippet from the `CANBed_encryption.ino` file showing how the `transformData` function is used to decrypt data before processing it:
 ```c
 void decryptData(unsigned char *decryptedData, unsigned char *data, int dataLength)
