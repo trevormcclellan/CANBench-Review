@@ -10,26 +10,26 @@ CANBench provides a low-cost, physical platform for researchers, educators, and 
 
 # Getting Started with CANBench
 
-Getting started with CANBench is simple! Follow these steps to set up the testbed and begin your exploration of automotive network security. For detailed setup instructions and background information, visit the [CANBench Wiki](https://github.com/trevormcclellan/CAN-Testbed/wiki).  
+Getting started with CANBench is simple! Follow these steps to set up the testbed and begin your exploration of automotive network security. For detailed setup instructions and background information, visit the [CANBench Wiki](./wiki/Home.md).  
 
 ## Quick Start Guide  
-If you are unfamiliar with the CAN bus, start by reading the [Background](https://github.com/trevormcclellan/CAN-Testbed/wiki/Background) section of the wiki.
+If you are unfamiliar with the CAN bus, start by reading the [Background](./wiki/Background) section of the wiki.
 
 1. **Assemble the Hardware:**  
-   Gather the required off-the-shelf components listed in the [Hardware Setup](https://github.com/trevormcclellan/CAN-Testbed/wiki/Hardware-Setup) section of the wiki. Follow the instructions to assemble the testbed.
+   Gather the required off-the-shelf components listed in the [Hardware Setup](./wiki/Hardware-Setup) section of the wiki. Follow the instructions to assemble the testbed.
 
 2. **Prepare the Software Environment:**  
-   Clone the CANBench repository and install the required dependencies as described in the [Software Setup](https://github.com/trevormcclellan/CAN-Testbed/wiki/Software-Setup) section.
+   Clone the CANBench repository and install the required dependencies as described in the [Software Setup](./wiki/Software-Setup) section.
 
    ```bash
-   git clone https://github.com/trevormcclellan/CAN-Testbed.git
+   git clone XXXXX
    cd CAN-Testbed
    ```
 
 3. **Run the Testbed:**
-    Launch the testbed application and begin simulating attacks or analyzing CAN traffic. Detailed instructions for running the software can be found in the [Using the Testbed](https://github.com/trevormcclellan/CAN-Testbed/wiki/Using-the-Testbed) section.
+    Launch the testbed application and begin simulating attacks or analyzing CAN traffic. Detailed instructions for running the software can be found in the [Using the Testbed](./wiki/Using-the-Testbed) section.
 
 4. **Start Experimenting:**
     Explore the capabilities of CANBench by simulating attacks, implementing mitigations, or using it as a teaching tool. Check out example use cases and tutorials in the wiki to get inspired.
 
-For questions or troubleshooting, consult the [Wiki](https://github.com/trevormcclellan/CAN-Testbed/wiki) or open an issue on the repository.
+For questions or troubleshooting, consult the [Wiki](./wiki/Home.md) or open an issue on the repository.
